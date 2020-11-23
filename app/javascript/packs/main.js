@@ -138,9 +138,16 @@ require('isotope-packery');
 
   // Porfolio isotope and filter
   $(window).on('load', function () {
-    var portfolioIsotope = $('.portfolio-container').isotope({
+
+    var elem = document.querySelector('.portfolio-container');
+    var portfolioIsotope = new Isotope(elem, {
+      // options
       itemSelector: '.portfolio-item'
     });
+
+    // var portfolioIsotope = $('.portfolio-container').isotope({
+    //   itemSelector: '.portfolio-item'
+    // });
 
     $('#portfolio-flters li').on('click', function () {
       $("#portfolio-flters li").removeClass('filter-active');

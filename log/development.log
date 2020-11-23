@@ -17720,3 +17720,239 @@ puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
 puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-11-23 21:41:32 +0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 242)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/talha/projects/portfolio/public/packs
+[Webpacker] Hash: fffc4d63d10d59e896a2
+Version: webpack 4.44.2
+Time: 9886ms
+Built at: 11/23/2020 9:41:44 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-14821653e4c53ef4fd84.js   1.4 MiB  application  [emitted] [immutable]  application
+js/application-14821653e4c53ef4fd84.js.map  1.56 MiB  application  [emitted] [dev]        application
+      js/counterup-a0f7cc3dc25f7f12d489.js   417 KiB    counterup  [emitted] [immutable]  counterup
+  js/counterup-a0f7cc3dc25f7f12d489.js.map   400 KiB    counterup  [emitted] [dev]        counterup
+        js/isotope-ed1705dc4e37110c9a66.js   405 KiB      isotope  [emitted] [immutable]  isotope
+    js/isotope-ed1705dc4e37110c9a66.js.map   480 KiB      isotope  [emitted] [dev]        isotope
+         js/jquery-5f064cd76f3adc94f0a0.js  15.6 KiB       jquery  [emitted] [immutable]  jquery
+     js/jquery-5f064cd76f3adc94f0a0.js.map  18.4 KiB       jquery  [emitted] [dev]        jquery
+           js/main-ffc1b3c2b8640695bf55.js   540 KiB         main  [emitted] [immutable]  main
+       js/main-ffc1b3c2b8640695bf55.js.map   542 KiB         main  [emitted] [dev]        main
+            js/owl-b23b9676f87cd588a407.js   508 KiB          owl  [emitted] [immutable]  owl
+        js/owl-b23b9676f87cd588a407.js.map   511 KiB          owl  [emitted] [dev]        owl
+        js/venobox-2b3a9ef2ef93f3afab46.js   443 KiB      venobox  [emitted] [immutable]  venobox
+    js/venobox-2b3a9ef2ef93f3afab46.js.map   431 KiB      venobox  [emitted] [dev]        venobox
+                             manifest.json  2.14 KiB               [emitted]              
+Entrypoint application = js/application-14821653e4c53ef4fd84.js js/application-14821653e4c53ef4fd84.js.map
+Entrypoint counterup = js/counterup-a0f7cc3dc25f7f12d489.js js/counterup-a0f7cc3dc25f7f12d489.js.map
+Entrypoint isotope = js/isotope-ed1705dc4e37110c9a66.js js/isotope-ed1705dc4e37110c9a66.js.map
+Entrypoint jquery = js/jquery-5f064cd76f3adc94f0a0.js js/jquery-5f064cd76f3adc94f0a0.js.map
+Entrypoint main = js/main-ffc1b3c2b8640695bf55.js js/main-ffc1b3c2b8640695bf55.js.map
+Entrypoint owl = js/owl-b23b9676f87cd588a407.js js/owl-b23b9676f87cd588a407.js.map
+Entrypoint venobox = js/venobox-2b3a9ef2ef93f3afab46.js js/venobox-2b3a9ef2ef93f3afab46.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/counterup.js] 3.41 KiB {counterup} {application} [built]
+[./app/javascript/packs/isotope.pkgd.js] 90.1 KiB {isotope} {application} [built]
+[./app/javascript/packs/jquery.easing.js] 4.2 KiB {application} [built]
+[./app/javascript/packs/jquery.waypoints.js] 11.6 KiB {jquery} {application} [built]
+[./app/javascript/packs/main.js] 4.87 KiB {main} {application} [built]
+[./app/javascript/packs/owl.carosel.js] 94.7 KiB {owl} {application} [built]
+[./app/javascript/packs/venobox.js] 29.6 KiB {venobox} {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {isotope} {main} [built]
+    + 126 hidden modules
+
+Completed 200 OK in 11591ms (Views: 11583.4ms | ActiveRecord: 0.0ms | Allocations: 13162)
+
+
+Started GET "/fonts/icofont.woff2" for ::1 at 2020-11-23 21:41:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/icofont.woff2"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/fonts/icofont.woff" for ::1 at 2020-11-23 21:41:44 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/icofont.woff"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-11-23 21:45:35 +0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 129)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/talha/projects/portfolio/public/packs
+[Webpacker] Hash: b36b4d124d4199c5415d
+Version: webpack 4.44.2
+Time: 2499ms
+Built at: 11/23/2020 9:45:40 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-d82130fce6047df3e55c.js  1.31 MiB  application  [emitted] [immutable]  application
+js/application-d82130fce6047df3e55c.js.map  1.45 MiB  application  [emitted] [dev]        application
+      js/counterup-a0f7cc3dc25f7f12d489.js   417 KiB    counterup  [emitted] [immutable]  counterup
+  js/counterup-a0f7cc3dc25f7f12d489.js.map   400 KiB    counterup  [emitted] [dev]        counterup
+        js/isotope-ed1705dc4e37110c9a66.js   405 KiB      isotope  [emitted] [immutable]  isotope
+    js/isotope-ed1705dc4e37110c9a66.js.map   480 KiB      isotope  [emitted] [dev]        isotope
+         js/jquery-5f064cd76f3adc94f0a0.js  15.6 KiB       jquery  [emitted] [immutable]  jquery
+     js/jquery-5f064cd76f3adc94f0a0.js.map  18.4 KiB       jquery  [emitted] [dev]        jquery
+           js/main-e319c79bf974f7c22991.js   540 KiB         main  [emitted] [immutable]  main
+       js/main-e319c79bf974f7c22991.js.map   542 KiB         main  [emitted] [dev]        main
+            js/owl-b23b9676f87cd588a407.js   508 KiB          owl  [emitted] [immutable]  owl
+        js/owl-b23b9676f87cd588a407.js.map   511 KiB          owl  [emitted] [dev]        owl
+        js/venobox-2b3a9ef2ef93f3afab46.js   443 KiB      venobox  [emitted] [immutable]  venobox
+    js/venobox-2b3a9ef2ef93f3afab46.js.map   431 KiB      venobox  [emitted] [dev]        venobox
+                             manifest.json  2.14 KiB               [emitted]              
+Entrypoint application = js/application-d82130fce6047df3e55c.js js/application-d82130fce6047df3e55c.js.map
+Entrypoint counterup = js/counterup-a0f7cc3dc25f7f12d489.js js/counterup-a0f7cc3dc25f7f12d489.js.map
+Entrypoint isotope = js/isotope-ed1705dc4e37110c9a66.js js/isotope-ed1705dc4e37110c9a66.js.map
+Entrypoint jquery = js/jquery-5f064cd76f3adc94f0a0.js js/jquery-5f064cd76f3adc94f0a0.js.map
+Entrypoint main = js/main-e319c79bf974f7c22991.js js/main-e319c79bf974f7c22991.js.map
+Entrypoint owl = js/owl-b23b9676f87cd588a407.js js/owl-b23b9676f87cd588a407.js.map
+Entrypoint venobox = js/venobox-2b3a9ef2ef93f3afab46.js js/venobox-2b3a9ef2ef93f3afab46.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1 KiB {application} [built]
+[./app/javascript/packs/counterup.js] 3.41 KiB {counterup} {application} [built]
+[./app/javascript/packs/isotope.pkgd.js] 90.1 KiB {isotope} [built]
+[./app/javascript/packs/jquery.easing.js] 4.2 KiB {application} [built]
+[./app/javascript/packs/jquery.waypoints.js] 11.6 KiB {jquery} {application} [built]
+[./app/javascript/packs/main.js] 5.04 KiB {main} {application} [built]
+[./app/javascript/packs/owl.carosel.js] 94.7 KiB {owl} {application} [built]
+[./app/javascript/packs/venobox.js] 29.6 KiB {venobox} {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {isotope} {main} [built]
+    + 126 hidden modules
+
+Completed 200 OK in 5543ms (Views: 5541.4ms | ActiveRecord: 0.0ms | Allocations: 7184)
+
+
+Started GET "/fonts/icofont.woff2" for ::1 at 2020-11-23 21:45:41 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/icofont.woff2"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/fonts/icofont.woff" for ::1 at 2020-11-23 21:45:41 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/fonts/icofont.woff"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'

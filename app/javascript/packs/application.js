@@ -14,7 +14,6 @@ require("packs/jquery.waypoints.js");
 require("packs/counterup.js");
 require("packs/owl.carosel.js");
 require("packs/jquery.waypoints.js");
-require("packs/isotope.pkgd.js");
 require("packs/venobox.js");
 require("packs/main.js");
 // Uncomment to copy all static images under ../images to the output folder and reference
