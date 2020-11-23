@@ -1,0 +1,21 @@
+// Color
+// --------------------------------------------------------------------------
+
+@each $name, $value in $color-values {
+  .color-#{$name} {
+    color: $value;
+  }
+}
+
+.color-inherit {
+  color: inherit;
+}
+
+// Fill
+// --------------------------------------------------------------------------
+
+@each $name, $value in $color-values {
+  .fill-#{$name} {
+    fill: $value;
+  }
+}

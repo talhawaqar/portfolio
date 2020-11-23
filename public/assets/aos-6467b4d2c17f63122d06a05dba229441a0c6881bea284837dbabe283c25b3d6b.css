@@ -1,0 +1,1389 @@
+/* line 1, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="50"],
+body[data-aos-duration="50"] [data-aos] {
+  transition-duration: 50ms;
+}
+
+/* line 5, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="50"],
+body[data-aos-delay="50"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 9, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="50"],
+body[data-aos-delay="50"] .aos-animate[data-aos] {
+  transition-delay: 50ms;
+}
+
+/* line 13, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="100"],
+body[data-aos-duration="100"] [data-aos] {
+  transition-duration: 0.1s;
+}
+
+/* line 17, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="100"],
+body[data-aos-delay="100"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 21, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="100"],
+body[data-aos-delay="100"] .aos-animate[data-aos] {
+  transition-delay: 0.1s;
+}
+
+/* line 25, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="150"],
+body[data-aos-duration="150"] [data-aos] {
+  transition-duration: 0.15s;
+}
+
+/* line 29, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="150"],
+body[data-aos-delay="150"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 33, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="150"],
+body[data-aos-delay="150"] .aos-animate[data-aos] {
+  transition-delay: 0.15s;
+}
+
+/* line 37, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="200"],
+body[data-aos-duration="200"] [data-aos] {
+  transition-duration: 0.2s;
+}
+
+/* line 41, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="200"],
+body[data-aos-delay="200"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 45, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="200"],
+body[data-aos-delay="200"] .aos-animate[data-aos] {
+  transition-delay: 0.2s;
+}
+
+/* line 49, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="250"],
+body[data-aos-duration="250"] [data-aos] {
+  transition-duration: 0.25s;
+}
+
+/* line 53, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="250"],
+body[data-aos-delay="250"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 57, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="250"],
+body[data-aos-delay="250"] .aos-animate[data-aos] {
+  transition-delay: 0.25s;
+}
+
+/* line 61, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="300"],
+body[data-aos-duration="300"] [data-aos] {
+  transition-duration: 0.3s;
+}
+
+/* line 65, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="300"],
+body[data-aos-delay="300"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 69, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="300"],
+body[data-aos-delay="300"] .aos-animate[data-aos] {
+  transition-delay: 0.3s;
+}
+
+/* line 73, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="350"],
+body[data-aos-duration="350"] [data-aos] {
+  transition-duration: 0.35s;
+}
+
+/* line 77, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="350"],
+body[data-aos-delay="350"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 81, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="350"],
+body[data-aos-delay="350"] .aos-animate[data-aos] {
+  transition-delay: 0.35s;
+}
+
+/* line 85, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="400"],
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 0.4s;
+}
+
+/* line 89, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="400"],
+body[data-aos-delay="400"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 93, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="400"],
+body[data-aos-delay="400"] .aos-animate[data-aos] {
+  transition-delay: 0.4s;
+}
+
+/* line 97, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="450"],
+body[data-aos-duration="450"] [data-aos] {
+  transition-duration: 0.45s;
+}
+
+/* line 101, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="450"],
+body[data-aos-delay="450"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 105, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="450"],
+body[data-aos-delay="450"] .aos-animate[data-aos] {
+  transition-delay: 0.45s;
+}
+
+/* line 109, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="500"],
+body[data-aos-duration="500"] [data-aos] {
+  transition-duration: 0.5s;
+}
+
+/* line 113, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="500"],
+body[data-aos-delay="500"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 117, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="500"],
+body[data-aos-delay="500"] .aos-animate[data-aos] {
+  transition-delay: 0.5s;
+}
+
+/* line 121, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="550"],
+body[data-aos-duration="550"] [data-aos] {
+  transition-duration: 0.55s;
+}
+
+/* line 125, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="550"],
+body[data-aos-delay="550"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 129, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="550"],
+body[data-aos-delay="550"] .aos-animate[data-aos] {
+  transition-delay: 0.55s;
+}
+
+/* line 133, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="600"],
+body[data-aos-duration="600"] [data-aos] {
+  transition-duration: 0.6s;
+}
+
+/* line 137, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="600"],
+body[data-aos-delay="600"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 141, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="600"],
+body[data-aos-delay="600"] .aos-animate[data-aos] {
+  transition-delay: 0.6s;
+}
+
+/* line 145, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="650"],
+body[data-aos-duration="650"] [data-aos] {
+  transition-duration: 0.65s;
+}
+
+/* line 149, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="650"],
+body[data-aos-delay="650"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 153, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="650"],
+body[data-aos-delay="650"] .aos-animate[data-aos] {
+  transition-delay: 0.65s;
+}
+
+/* line 157, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="700"],
+body[data-aos-duration="700"] [data-aos] {
+  transition-duration: 0.7s;
+}
+
+/* line 161, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="700"],
+body[data-aos-delay="700"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 165, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="700"],
+body[data-aos-delay="700"] .aos-animate[data-aos] {
+  transition-delay: 0.7s;
+}
+
+/* line 169, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="750"],
+body[data-aos-duration="750"] [data-aos] {
+  transition-duration: 0.75s;
+}
+
+/* line 173, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="750"],
+body[data-aos-delay="750"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 177, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="750"],
+body[data-aos-delay="750"] .aos-animate[data-aos] {
+  transition-delay: 0.75s;
+}
+
+/* line 181, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="800"],
+body[data-aos-duration="800"] [data-aos] {
+  transition-duration: 0.8s;
+}
+
+/* line 185, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="800"],
+body[data-aos-delay="800"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 189, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="800"],
+body[data-aos-delay="800"] .aos-animate[data-aos] {
+  transition-delay: 0.8s;
+}
+
+/* line 193, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="850"],
+body[data-aos-duration="850"] [data-aos] {
+  transition-duration: 0.85s;
+}
+
+/* line 197, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="850"],
+body[data-aos-delay="850"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 201, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="850"],
+body[data-aos-delay="850"] .aos-animate[data-aos] {
+  transition-delay: 0.85s;
+}
+
+/* line 205, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="900"],
+body[data-aos-duration="900"] [data-aos] {
+  transition-duration: 0.9s;
+}
+
+/* line 209, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="900"],
+body[data-aos-delay="900"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 213, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="900"],
+body[data-aos-delay="900"] .aos-animate[data-aos] {
+  transition-delay: 0.9s;
+}
+
+/* line 217, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="950"],
+body[data-aos-duration="950"] [data-aos] {
+  transition-duration: 0.95s;
+}
+
+/* line 221, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="950"],
+body[data-aos-delay="950"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 225, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="950"],
+body[data-aos-delay="950"] .aos-animate[data-aos] {
+  transition-delay: 0.95s;
+}
+
+/* line 229, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1000"],
+body[data-aos-duration="1000"] [data-aos] {
+  transition-duration: 1s;
+}
+
+/* line 233, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1000"],
+body[data-aos-delay="1000"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 237, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1000"],
+body[data-aos-delay="1000"] .aos-animate[data-aos] {
+  transition-delay: 1s;
+}
+
+/* line 241, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1050"],
+body[data-aos-duration="1050"] [data-aos] {
+  transition-duration: 1.05s;
+}
+
+/* line 245, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1050"],
+body[data-aos-delay="1050"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 249, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1050"],
+body[data-aos-delay="1050"] .aos-animate[data-aos] {
+  transition-delay: 1.05s;
+}
+
+/* line 253, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1100"],
+body[data-aos-duration="1100"] [data-aos] {
+  transition-duration: 1.1s;
+}
+
+/* line 257, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1100"],
+body[data-aos-delay="1100"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 261, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1100"],
+body[data-aos-delay="1100"] .aos-animate[data-aos] {
+  transition-delay: 1.1s;
+}
+
+/* line 265, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1150"],
+body[data-aos-duration="1150"] [data-aos] {
+  transition-duration: 1.15s;
+}
+
+/* line 269, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1150"],
+body[data-aos-delay="1150"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 273, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1150"],
+body[data-aos-delay="1150"] .aos-animate[data-aos] {
+  transition-delay: 1.15s;
+}
+
+/* line 277, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1200"],
+body[data-aos-duration="1200"] [data-aos] {
+  transition-duration: 1.2s;
+}
+
+/* line 281, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1200"],
+body[data-aos-delay="1200"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 285, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1200"],
+body[data-aos-delay="1200"] .aos-animate[data-aos] {
+  transition-delay: 1.2s;
+}
+
+/* line 289, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1250"],
+body[data-aos-duration="1250"] [data-aos] {
+  transition-duration: 1.25s;
+}
+
+/* line 293, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1250"],
+body[data-aos-delay="1250"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 297, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1250"],
+body[data-aos-delay="1250"] .aos-animate[data-aos] {
+  transition-delay: 1.25s;
+}
+
+/* line 301, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1300"],
+body[data-aos-duration="1300"] [data-aos] {
+  transition-duration: 1.3s;
+}
+
+/* line 305, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1300"],
+body[data-aos-delay="1300"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 309, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1300"],
+body[data-aos-delay="1300"] .aos-animate[data-aos] {
+  transition-delay: 1.3s;
+}
+
+/* line 313, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1350"],
+body[data-aos-duration="1350"] [data-aos] {
+  transition-duration: 1.35s;
+}
+
+/* line 317, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1350"],
+body[data-aos-delay="1350"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 321, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1350"],
+body[data-aos-delay="1350"] .aos-animate[data-aos] {
+  transition-delay: 1.35s;
+}
+
+/* line 325, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1400"],
+body[data-aos-duration="1400"] [data-aos] {
+  transition-duration: 1.4s;
+}
+
+/* line 329, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1400"],
+body[data-aos-delay="1400"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 333, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1400"],
+body[data-aos-delay="1400"] .aos-animate[data-aos] {
+  transition-delay: 1.4s;
+}
+
+/* line 337, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1450"],
+body[data-aos-duration="1450"] [data-aos] {
+  transition-duration: 1.45s;
+}
+
+/* line 341, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1450"],
+body[data-aos-delay="1450"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 345, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1450"],
+body[data-aos-delay="1450"] .aos-animate[data-aos] {
+  transition-delay: 1.45s;
+}
+
+/* line 349, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1500"],
+body[data-aos-duration="1500"] [data-aos] {
+  transition-duration: 1.5s;
+}
+
+/* line 353, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1500"],
+body[data-aos-delay="1500"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 357, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1500"],
+body[data-aos-delay="1500"] .aos-animate[data-aos] {
+  transition-delay: 1.5s;
+}
+
+/* line 361, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1550"],
+body[data-aos-duration="1550"] [data-aos] {
+  transition-duration: 1.55s;
+}
+
+/* line 365, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1550"],
+body[data-aos-delay="1550"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 369, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1550"],
+body[data-aos-delay="1550"] .aos-animate[data-aos] {
+  transition-delay: 1.55s;
+}
+
+/* line 373, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1600"],
+body[data-aos-duration="1600"] [data-aos] {
+  transition-duration: 1.6s;
+}
+
+/* line 377, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1600"],
+body[data-aos-delay="1600"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 381, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1600"],
+body[data-aos-delay="1600"] .aos-animate[data-aos] {
+  transition-delay: 1.6s;
+}
+
+/* line 385, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1650"],
+body[data-aos-duration="1650"] [data-aos] {
+  transition-duration: 1.65s;
+}
+
+/* line 389, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1650"],
+body[data-aos-delay="1650"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 393, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1650"],
+body[data-aos-delay="1650"] .aos-animate[data-aos] {
+  transition-delay: 1.65s;
+}
+
+/* line 397, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1700"],
+body[data-aos-duration="1700"] [data-aos] {
+  transition-duration: 1.7s;
+}
+
+/* line 401, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1700"],
+body[data-aos-delay="1700"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 405, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1700"],
+body[data-aos-delay="1700"] .aos-animate[data-aos] {
+  transition-delay: 1.7s;
+}
+
+/* line 409, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1750"],
+body[data-aos-duration="1750"] [data-aos] {
+  transition-duration: 1.75s;
+}
+
+/* line 413, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1750"],
+body[data-aos-delay="1750"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 417, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1750"],
+body[data-aos-delay="1750"] .aos-animate[data-aos] {
+  transition-delay: 1.75s;
+}
+
+/* line 421, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1800"],
+body[data-aos-duration="1800"] [data-aos] {
+  transition-duration: 1.8s;
+}
+
+/* line 425, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1800"],
+body[data-aos-delay="1800"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 429, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1800"],
+body[data-aos-delay="1800"] .aos-animate[data-aos] {
+  transition-delay: 1.8s;
+}
+
+/* line 433, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1850"],
+body[data-aos-duration="1850"] [data-aos] {
+  transition-duration: 1.85s;
+}
+
+/* line 437, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1850"],
+body[data-aos-delay="1850"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 441, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1850"],
+body[data-aos-delay="1850"] .aos-animate[data-aos] {
+  transition-delay: 1.85s;
+}
+
+/* line 445, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1900"],
+body[data-aos-duration="1900"] [data-aos] {
+  transition-duration: 1.9s;
+}
+
+/* line 449, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1900"],
+body[data-aos-delay="1900"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 453, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1900"],
+body[data-aos-delay="1900"] .aos-animate[data-aos] {
+  transition-delay: 1.9s;
+}
+
+/* line 457, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="1950"],
+body[data-aos-duration="1950"] [data-aos] {
+  transition-duration: 1.95s;
+}
+
+/* line 461, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="1950"],
+body[data-aos-delay="1950"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 465, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="1950"],
+body[data-aos-delay="1950"] .aos-animate[data-aos] {
+  transition-delay: 1.95s;
+}
+
+/* line 469, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2000"],
+body[data-aos-duration="2000"] [data-aos] {
+  transition-duration: 2s;
+}
+
+/* line 473, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2000"],
+body[data-aos-delay="2000"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 477, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2000"],
+body[data-aos-delay="2000"] .aos-animate[data-aos] {
+  transition-delay: 2s;
+}
+
+/* line 481, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2050"],
+body[data-aos-duration="2050"] [data-aos] {
+  transition-duration: 2.05s;
+}
+
+/* line 485, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2050"],
+body[data-aos-delay="2050"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 489, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2050"],
+body[data-aos-delay="2050"] .aos-animate[data-aos] {
+  transition-delay: 2.05s;
+}
+
+/* line 493, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2100"],
+body[data-aos-duration="2100"] [data-aos] {
+  transition-duration: 2.1s;
+}
+
+/* line 497, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2100"],
+body[data-aos-delay="2100"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 501, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2100"],
+body[data-aos-delay="2100"] .aos-animate[data-aos] {
+  transition-delay: 2.1s;
+}
+
+/* line 505, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2150"],
+body[data-aos-duration="2150"] [data-aos] {
+  transition-duration: 2.15s;
+}
+
+/* line 509, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2150"],
+body[data-aos-delay="2150"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 513, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2150"],
+body[data-aos-delay="2150"] .aos-animate[data-aos] {
+  transition-delay: 2.15s;
+}
+
+/* line 517, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2200"],
+body[data-aos-duration="2200"] [data-aos] {
+  transition-duration: 2.2s;
+}
+
+/* line 521, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2200"],
+body[data-aos-delay="2200"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 525, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2200"],
+body[data-aos-delay="2200"] .aos-animate[data-aos] {
+  transition-delay: 2.2s;
+}
+
+/* line 529, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2250"],
+body[data-aos-duration="2250"] [data-aos] {
+  transition-duration: 2.25s;
+}
+
+/* line 533, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2250"],
+body[data-aos-delay="2250"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 537, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2250"],
+body[data-aos-delay="2250"] .aos-animate[data-aos] {
+  transition-delay: 2.25s;
+}
+
+/* line 541, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2300"],
+body[data-aos-duration="2300"] [data-aos] {
+  transition-duration: 2.3s;
+}
+
+/* line 545, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2300"],
+body[data-aos-delay="2300"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 549, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2300"],
+body[data-aos-delay="2300"] .aos-animate[data-aos] {
+  transition-delay: 2.3s;
+}
+
+/* line 553, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2350"],
+body[data-aos-duration="2350"] [data-aos] {
+  transition-duration: 2.35s;
+}
+
+/* line 557, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2350"],
+body[data-aos-delay="2350"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 561, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2350"],
+body[data-aos-delay="2350"] .aos-animate[data-aos] {
+  transition-delay: 2.35s;
+}
+
+/* line 565, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2400"],
+body[data-aos-duration="2400"] [data-aos] {
+  transition-duration: 2.4s;
+}
+
+/* line 569, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2400"],
+body[data-aos-delay="2400"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 573, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2400"],
+body[data-aos-delay="2400"] .aos-animate[data-aos] {
+  transition-delay: 2.4s;
+}
+
+/* line 577, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2450"],
+body[data-aos-duration="2450"] [data-aos] {
+  transition-duration: 2.45s;
+}
+
+/* line 581, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2450"],
+body[data-aos-delay="2450"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 585, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2450"],
+body[data-aos-delay="2450"] .aos-animate[data-aos] {
+  transition-delay: 2.45s;
+}
+
+/* line 589, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2500"],
+body[data-aos-duration="2500"] [data-aos] {
+  transition-duration: 2.5s;
+}
+
+/* line 593, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2500"],
+body[data-aos-delay="2500"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 597, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2500"],
+body[data-aos-delay="2500"] .aos-animate[data-aos] {
+  transition-delay: 2.5s;
+}
+
+/* line 601, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2550"],
+body[data-aos-duration="2550"] [data-aos] {
+  transition-duration: 2.55s;
+}
+
+/* line 605, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2550"],
+body[data-aos-delay="2550"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 609, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2550"],
+body[data-aos-delay="2550"] .aos-animate[data-aos] {
+  transition-delay: 2.55s;
+}
+
+/* line 613, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2600"],
+body[data-aos-duration="2600"] [data-aos] {
+  transition-duration: 2.6s;
+}
+
+/* line 617, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2600"],
+body[data-aos-delay="2600"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 621, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2600"],
+body[data-aos-delay="2600"] .aos-animate[data-aos] {
+  transition-delay: 2.6s;
+}
+
+/* line 625, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2650"],
+body[data-aos-duration="2650"] [data-aos] {
+  transition-duration: 2.65s;
+}
+
+/* line 629, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2650"],
+body[data-aos-delay="2650"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 633, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2650"],
+body[data-aos-delay="2650"] .aos-animate[data-aos] {
+  transition-delay: 2.65s;
+}
+
+/* line 637, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2700"],
+body[data-aos-duration="2700"] [data-aos] {
+  transition-duration: 2.7s;
+}
+
+/* line 641, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2700"],
+body[data-aos-delay="2700"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 645, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2700"],
+body[data-aos-delay="2700"] .aos-animate[data-aos] {
+  transition-delay: 2.7s;
+}
+
+/* line 649, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2750"],
+body[data-aos-duration="2750"] [data-aos] {
+  transition-duration: 2.75s;
+}
+
+/* line 653, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2750"],
+body[data-aos-delay="2750"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 657, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2750"],
+body[data-aos-delay="2750"] .aos-animate[data-aos] {
+  transition-delay: 2.75s;
+}
+
+/* line 661, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2800"],
+body[data-aos-duration="2800"] [data-aos] {
+  transition-duration: 2.8s;
+}
+
+/* line 665, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2800"],
+body[data-aos-delay="2800"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 669, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2800"],
+body[data-aos-delay="2800"] .aos-animate[data-aos] {
+  transition-delay: 2.8s;
+}
+
+/* line 673, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2850"],
+body[data-aos-duration="2850"] [data-aos] {
+  transition-duration: 2.85s;
+}
+
+/* line 677, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2850"],
+body[data-aos-delay="2850"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 681, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2850"],
+body[data-aos-delay="2850"] .aos-animate[data-aos] {
+  transition-delay: 2.85s;
+}
+
+/* line 685, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2900"],
+body[data-aos-duration="2900"] [data-aos] {
+  transition-duration: 2.9s;
+}
+
+/* line 689, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2900"],
+body[data-aos-delay="2900"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 693, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2900"],
+body[data-aos-delay="2900"] .aos-animate[data-aos] {
+  transition-delay: 2.9s;
+}
+
+/* line 697, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="2950"],
+body[data-aos-duration="2950"] [data-aos] {
+  transition-duration: 2.95s;
+}
+
+/* line 701, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="2950"],
+body[data-aos-delay="2950"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 705, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="2950"],
+body[data-aos-delay="2950"] .aos-animate[data-aos] {
+  transition-delay: 2.95s;
+}
+
+/* line 709, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-duration="3000"],
+body[data-aos-duration="3000"] [data-aos] {
+  transition-duration: 3s;
+}
+
+/* line 713, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-delay="3000"],
+body[data-aos-delay="3000"] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 717, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos][data-aos][data-aos-delay="3000"],
+body[data-aos-delay="3000"] .aos-animate[data-aos] {
+  transition-delay: 3s;
+}
+
+/* line 721, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="linear"],
+body[data-aos-easing="linear"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+
+/* line 725, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease"],
+body[data-aos-easing="ease"] [data-aos] {
+  transition-timing-function: ease;
+}
+
+/* line 729, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in"],
+body[data-aos-easing="ease-in"] [data-aos] {
+  transition-timing-function: ease-in;
+}
+
+/* line 733, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-out"],
+body[data-aos-easing="ease-out"] [data-aos] {
+  transition-timing-function: ease-out;
+}
+
+/* line 737, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-out"],
+body[data-aos-easing="ease-in-out"] [data-aos] {
+  transition-timing-function: ease-in-out;
+}
+
+/* line 741, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-back"],
+body[data-aos-easing="ease-in-back"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+/* line 745, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-out-back"],
+body[data-aos-easing="ease-out-back"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* line 749, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-out-back"],
+body[data-aos-easing="ease-in-out-back"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* line 753, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-sine"],
+body[data-aos-easing="ease-in-sine"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+/* line 757, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-out-sine"],
+body[data-aos-easing="ease-out-sine"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+/* line 761, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-out-sine"],
+body[data-aos-easing="ease-in-out-sine"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+/* line 765, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-quad"],
+body[data-aos-easing="ease-in-quad"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+/* line 769, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-out-quad"],
+body[data-aos-easing="ease-out-quad"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* line 773, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-out-quad"],
+body[data-aos-easing="ease-in-out-quad"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* line 777, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-cubic"],
+body[data-aos-easing="ease-in-cubic"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+/* line 781, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-out-cubic"],
+body[data-aos-easing="ease-out-cubic"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* line 785, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-out-cubic"],
+body[data-aos-easing="ease-in-out-cubic"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* line 789, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-quart"],
+body[data-aos-easing="ease-in-quart"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+/* line 793, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-out-quart"],
+body[data-aos-easing="ease-out-quart"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* line 797, app/assets/stylesheets/aos.scss */
+[data-aos][data-aos][data-aos-easing="ease-in-out-quart"],
+body[data-aos-easing="ease-in-out-quart"] [data-aos] {
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* line 801, app/assets/stylesheets/aos.scss */
+[data-aos^="fade"][data-aos^="fade"] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
+
+/* line 805, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos^="fade"][data-aos^="fade"] {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+/* line 809, app/assets/stylesheets/aos.scss */
+[data-aos="fade-up"] {
+  transform: translate3d(0, 100px, 0);
+}
+
+/* line 812, app/assets/stylesheets/aos.scss */
+[data-aos="fade-down"] {
+  transform: translate3d(0, -100px, 0);
+}
+
+/* line 815, app/assets/stylesheets/aos.scss */
+[data-aos="fade-right"] {
+  transform: translate3d(-100px, 0, 0);
+}
+
+/* line 818, app/assets/stylesheets/aos.scss */
+[data-aos="fade-left"] {
+  transform: translate3d(100px, 0, 0);
+}
+
+/* line 821, app/assets/stylesheets/aos.scss */
+[data-aos="fade-up-right"] {
+  transform: translate3d(-100px, 100px, 0);
+}
+
+/* line 824, app/assets/stylesheets/aos.scss */
+[data-aos="fade-up-left"] {
+  transform: translate3d(100px, 100px, 0);
+}
+
+/* line 827, app/assets/stylesheets/aos.scss */
+[data-aos="fade-down-right"] {
+  transform: translate3d(-100px, -100px, 0);
+}
+
+/* line 830, app/assets/stylesheets/aos.scss */
+[data-aos="fade-down-left"] {
+  transform: translate3d(100px, -100px, 0);
+}
+
+/* line 833, app/assets/stylesheets/aos.scss */
+[data-aos^="zoom"][data-aos^="zoom"] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
+
+/* line 837, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos^="zoom"][data-aos^="zoom"] {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+}
+
+/* line 841, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-in"] {
+  transform: scale(0.6);
+}
+
+/* line 844, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-in-up"] {
+  transform: translate3d(0, 100px, 0) scale(0.6);
+}
+
+/* line 847, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-in-down"] {
+  transform: translate3d(0, -100px, 0) scale(0.6);
+}
+
+/* line 850, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-in-right"] {
+  transform: translate3d(-100px, 0, 0) scale(0.6);
+}
+
+/* line 853, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-in-left"] {
+  transform: translate3d(100px, 0, 0) scale(0.6);
+}
+
+/* line 856, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-out"] {
+  transform: scale(1.2);
+}
+
+/* line 859, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-out-up"] {
+  transform: translate3d(0, 100px, 0) scale(1.2);
+}
+
+/* line 862, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-out-down"] {
+  transform: translate3d(0, -100px, 0) scale(1.2);
+}
+
+/* line 865, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-out-right"] {
+  transform: translate3d(-100px, 0, 0) scale(1.2);
+}
+
+/* line 868, app/assets/stylesheets/aos.scss */
+[data-aos="zoom-out-left"] {
+  transform: translate3d(100px, 0, 0) scale(1.2);
+}
+
+/* line 871, app/assets/stylesheets/aos.scss */
+[data-aos^="slide"][data-aos^="slide"] {
+  transition-property: transform;
+}
+
+/* line 874, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos^="slide"][data-aos^="slide"] {
+  transform: translateZ(0);
+}
+
+/* line 877, app/assets/stylesheets/aos.scss */
+[data-aos="slide-up"] {
+  transform: translate3d(0, 100%, 0);
+}
+
+/* line 880, app/assets/stylesheets/aos.scss */
+[data-aos="slide-down"] {
+  transform: translate3d(0, -100%, 0);
+}
+
+/* line 883, app/assets/stylesheets/aos.scss */
+[data-aos="slide-right"] {
+  transform: translate3d(-100%, 0, 0);
+}
+
+/* line 886, app/assets/stylesheets/aos.scss */
+[data-aos="slide-left"] {
+  transform: translate3d(100%, 0, 0);
+}
+
+/* line 889, app/assets/stylesheets/aos.scss */
+[data-aos^="flip"][data-aos^="flip"] {
+  backface-visibility: hidden;
+  transition-property: transform;
+}
+
+/* line 893, app/assets/stylesheets/aos.scss */
+[data-aos="flip-left"] {
+  transform: perspective(2500px) rotateY(-100deg);
+}
+
+/* line 896, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos="flip-left"] {
+  transform: perspective(2500px) rotateY(0);
+}
+
+/* line 899, app/assets/stylesheets/aos.scss */
+[data-aos="flip-right"] {
+  transform: perspective(2500px) rotateY(100deg);
+}
+
+/* line 902, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos="flip-right"] {
+  transform: perspective(2500px) rotateY(0);
+}
+
+/* line 905, app/assets/stylesheets/aos.scss */
+[data-aos="flip-up"] {
+  transform: perspective(2500px) rotateX(-100deg);
+}
+
+/* line 908, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos="flip-up"] {
+  transform: perspective(2500px) rotateX(0);
+}
+
+/* line 911, app/assets/stylesheets/aos.scss */
+[data-aos="flip-down"] {
+  transform: perspective(2500px) rotateX(100deg);
+}
+
+/* line 914, app/assets/stylesheets/aos.scss */
+.aos-animate[data-aos="flip-down"] {
+  transform: perspective(2500px) rotateX(0);
+}

@@ -1,0 +1,74 @@
+{
+  "application.js": "/packs/js/application-7e73d93e7bccba70e411.js",
+  "application.js.map": "/packs/js/application-7e73d93e7bccba70e411.js.map",
+  "counterup.js": "/packs/js/counterup-a0f7cc3dc25f7f12d489.js",
+  "counterup.js.map": "/packs/js/counterup-a0f7cc3dc25f7f12d489.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-7e73d93e7bccba70e411.js"
+      ],
+      "js.map": [
+        "/packs/js/application-7e73d93e7bccba70e411.js.map"
+      ]
+    },
+    "counterup": {
+      "js": [
+        "/packs/js/counterup-a0f7cc3dc25f7f12d489.js"
+      ],
+      "js.map": [
+        "/packs/js/counterup-a0f7cc3dc25f7f12d489.js.map"
+      ]
+    },
+    "isotope": {
+      "js": [
+        "/packs/js/isotope-ed1705dc4e37110c9a66.js"
+      ],
+      "js.map": [
+        "/packs/js/isotope-ed1705dc4e37110c9a66.js.map"
+      ]
+    },
+    "jquery": {
+      "js": [
+        "/packs/js/jquery-5f064cd76f3adc94f0a0.js"
+      ],
+      "js.map": [
+        "/packs/js/jquery-5f064cd76f3adc94f0a0.js.map"
+      ]
+    },
+    "main": {
+      "js": [
+        "/packs/js/main-59a97de03a6866a94f62.js"
+      ],
+      "js.map": [
+        "/packs/js/main-59a97de03a6866a94f62.js.map"
+      ]
+    },
+    "owl": {
+      "js": [
+        "/packs/js/owl-b23b9676f87cd588a407.js"
+      ],
+      "js.map": [
+        "/packs/js/owl-b23b9676f87cd588a407.js.map"
+      ]
+    },
+    "venobox": {
+      "js": [
+        "/packs/js/venobox-2b3a9ef2ef93f3afab46.js"
+      ],
+      "js.map": [
+        "/packs/js/venobox-2b3a9ef2ef93f3afab46.js.map"
+      ]
+    }
+  },
+  "isotope.js": "/packs/js/isotope-ed1705dc4e37110c9a66.js",
+  "isotope.js.map": "/packs/js/isotope-ed1705dc4e37110c9a66.js.map",
+  "jquery.js": "/packs/js/jquery-5f064cd76f3adc94f0a0.js",
+  "jquery.js.map": "/packs/js/jquery-5f064cd76f3adc94f0a0.js.map",
+  "main.js": "/packs/js/main-59a97de03a6866a94f62.js",
+  "main.js.map": "/packs/js/main-59a97de03a6866a94f62.js.map",
+  "owl.js": "/packs/js/owl-b23b9676f87cd588a407.js",
+  "owl.js.map": "/packs/js/owl-b23b9676f87cd588a407.js.map",
+  "venobox.js": "/packs/js/venobox-2b3a9ef2ef93f3afab46.js",
+  "venobox.js.map": "/packs/js/venobox-2b3a9ef2ef93f3afab46.js.map"
+}
