@@ -1,0 +1,49 @@
+<%= form_with model: @project, class: 'form py-5 pl-5', id: 'project_form', url: projects_path do |f| %>
+
+  <div class="input-group">
+    <%= label_tag(:project_images, "Choose Images", class: 'ml-2 mt-2') %>
+    <%= f.file_field :project_images, :multiple => true, name: 'project_images[]',  :class => 'mt-1 ml-1' %>
+  </div>
+
+  <div class="input-group">
+    <%= label_tag(:title, "Title", class: 'm-2') %>
+    <%= f.text_field :title, class: 'form-control a-title-width', placeholder: 'Enter Project Title', autofocus: true %>
+  </div>
+
+
+  <div class="input-group">
+    <%= label_tag(:client, "Client", class: 'm-2') %>
+    <%= f.text_field :client, class: 'form-control a-title-width', placeholder: 'Enter client name', autofocus: true %>
+  </div>
+  
+   <div class="input-group">
+    <%= label_tag(:display_category, "Display Category", class: 'm-2') %>
+    <%= f.text_field :display_category, class: 'form-control a-title-width', placeholder: 'Enter client name', autofocus: true %>
+  </div>
+
+  <div class="ml-5">
+    <%= label_tag(:category, "Select Category", class: 'm-2') %>
+    <%= collection_select(:category, :category_id, @categories, :id, :name) %>
+  </div>
+
+  <div class="ml-5">
+    <%= label_tag(:project_date, "Project date", class: 'm-2') %>
+    <%= f.date_field :project_date, as: :date, value: f.object.try(:strftime,"%m/%d/%Y") %>  
+  </div>
+  
+
+  <div class="input-group">
+    <%= label_tag(:url, "Project URL", class: 'm-2') %>
+    <%= f.text_field :url, class: 'form-control a-title-width', placeholder: 'Enter project url', autofocus: true %>
+  </div>
+ 
+
+  <div class="input-group">
+      <%= label_tag(:description, "Description", class: 'm-2') %>
+      <%= f.text_area(:description ,size: "24x6", class: 'form-control a-article-width') %>
+    </div>
+
+  <div class="d-flex flex-row align-items-center pr-2">
+    <%= f.submit "Add Project", class: "btn btn-secondary mt-2 ml-5" %>
+  </div>
+<% end %>

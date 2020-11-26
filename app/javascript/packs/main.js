@@ -137,8 +137,7 @@ require('isotope-packery');
   });
 
   // Porfolio isotope and filter
-  $(window).on('load', function () {
-
+  $(document).on('turbolinks:load', function () {
     var elem = document.querySelector('.portfolio-container');
     var portfolioIsotope = new Isotope(elem, {
       // options
@@ -160,7 +159,7 @@ require('isotope-packery');
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function () {
+    $(document).on('turbolinks:load', function () {
       $('.venobox').venobox({
         'share': false
       });
@@ -182,7 +181,8 @@ require('isotope-packery');
       once: true
     });
   }
-  $(window).on('load', function () {
+
+  $(document).on('turbolinks:load', function () {
     aos_init();
   });
 

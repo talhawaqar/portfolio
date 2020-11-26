@@ -1,0 +1,43 @@
+<main id="main">
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Some of my previous projects.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <% @categories.each do |category|%>
+                <li data-filter=".filter-<%=category.name%>"><%=category.name.capitalize%></li>  
+              <% end %>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          <% @projects.each do |project| %>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-<%= project.category.name %> ">
+              <div class="portfolio-wrap">
+                <%= image_tag(url_for(project.images.first), :class => "img-fluid") %>
+                <div class="portfolio-info">
+                  <h4><%= project.title%> </h4>
+                  <p><%= project.category.name %></p>
+                  <div class="portfolio-links">
+                    <a href="<%=url_for(project.images.first)%>" data-gall="portfolioGallery" class="venobox"
+                      title="<%= project.category.name %>"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+  </main><!-- End #main -->
