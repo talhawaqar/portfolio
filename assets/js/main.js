@@ -1,12 +1,7 @@
-/**
-* Template Name: Kelly - v2.0.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+// remove isotops and venobox
+
 !(function($) {
   "use strict";
-
   // Preloader
   $(window).on('load', function() {
     if ($('#preloader').length) {
@@ -18,7 +13,7 @@
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostnAOSame) {
       var target = $(this.hash);
       if (target.length) {
         e.preventDefault();
@@ -108,51 +103,35 @@
     return false;
   });
 
-  // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
-  });
-
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item'
-    });
+    let list = document.querySelectorAll('.list');
+    let projects = document.querySelectorAll('.project-box');
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
-      $(this).addClass('filter-active');
+    for(let i = 0; i < list.length; i++){
+      list[i].addEventListener('click', function(){
+        for(let j=0; j< list.length; j++){
+          list[j].classList.remove('filter-active');
+        }
+        this.classList.add('filter-active');
 
-      portfolioIsotope.isotope({
-        filter: $(this).data('filter')
-      });
-      aos_init();
-    });
+        let dataFilter = this.getAttribute('data-filter');
 
-    // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
-      $('.venobox').venobox({
-        'share': false
-      });
-    });
+        for(let k=0; k < projects.length; k++){
+          projects[k].classList.add('hide');
+
+          if(projects[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
+            projects[k].classList.remove('hide');
+          }
+        }
+      })
+    }
   });
 
   // Portfolio details carousel
@@ -173,5 +152,9 @@
   $(window).on('load', function() {
     aos_init();
   });
-
 })(jQuery);
+
+function openModal(){
+  $('#exampleModal').modal({backdrop: 'static', keyboard: false})  
+}
+
