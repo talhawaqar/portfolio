@@ -134,14 +134,6 @@
     }
   });
 
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
   // Init AOS
   function aos_init() {
     AOS.init({
@@ -157,4 +149,3 @@
 function openModal(){
   $('#exampleModal').modal({backdrop: 'static', keyboard: false})  
 }
-
