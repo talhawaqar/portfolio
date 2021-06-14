@@ -149,25 +149,60 @@
 
     async function handleSubmit(event) {
       event.preventDefault();
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-          'Accept': 'application/json'
+      let form = $('#contact-form');
+      form.validate({
+        rules: {
+          name: {
+            required: true,
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          subject: {
+            required: true,
+          },
+          message: {
+            required: true,
+          }
+        },
+        messages: {
+          name: {
+            required: 'Name is required',
+          },
+          email: {
+            required: 'Email is required',
+            email: 'Enter valid email'
+          },
+          subject: {
+            required: 'Subject is required',
+          },
+          message: {
+            required: 'Message is required',
+          }
         }
-      }).then(response => {
-        formSuccess.style.display = 'block';
-        formError.style.display = 'none';
-        form.reset();
-      }).catch(error => {
-        formError.innerHTML = 'Oops there is an error';
-        formError.style.display = 'block';
-        formSuccess.style.display = 'none';
       });
+
+      if (form.valid()) {
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(response => {
+          formSuccess.style.display = 'block';
+          formError.style.display = 'none';
+          form.reset();
+        }).catch(error => {
+          formError.innerHTML = 'Oops there is an error';
+          formError.style.display = 'block';
+          formSuccess.style.display = 'none';
+        });
+      }
     }
     form.addEventListener("submit", handleSubmit)
-
   });
 
   // Init AOS

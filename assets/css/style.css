@@ -1100,3 +1100,9 @@ section {
 .mt-20 {
   margin-top: 20px !important;
 }
+
+.error {
+  color: red;
+  font-weight: 400;
+  font-size: 13px;
+}
