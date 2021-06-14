@@ -111,6 +111,7 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
+    let links = document.querySelectorAll('.linked');
     let list = document.querySelectorAll('.list');
     let projects = document.querySelectorAll('.project-box');
 
@@ -132,6 +133,15 @@
         }
       })
     }
+
+    for(let j = 0; j < links.length; j++ ) {
+      links[j].addEventListener('click', function(e){
+        for(let z=0; z < links.length; z++){
+          links[z].closest('li').classList.remove('active');
+        }
+        e.target.closest('li').classList.add('active');
+      });
+    }
   });
 
   // Init AOS
@@ -146,6 +156,6 @@
   });
 })(jQuery);
 
-function openModal(){
-  $('#exampleModal').modal({backdrop: 'static', keyboard: false})  
+function openModal(id){
+  $('#projectModal'+id).modal({backdrop: 'static', keyboard: false})  
 }
