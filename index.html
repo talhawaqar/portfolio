@@ -416,7 +416,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="linked active"><a href="#hero">Home</a></li>
-          <li class="linked"><a  href="#about">About</a></li>
+          <li class="linked"><a href="#about">About</a></li>
           <li><a href="./assets/Resume.pdf" target="_blank">Resume</a></li>
           <li class="linked"><a href="#services">Services</a></li>
           <li class="linked"><a href="#portfolio">Portfolio</a></li>
@@ -810,7 +810,7 @@
         </div>
 
         <div class="col-lg-8 mt-5 mt-lg-0">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form action="https://formspree.io/f/xoqywwky" id="contact-form" method="post" role="form" class="php-email-form">
             <div class="form-row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -835,8 +835,8 @@
             </div>
             <div class="mb-3">
               <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div id="form-error" class="error-message"></div>
+              <div id="form-success" class="sent-message">Your message has been sent. Thank you!</div>
             </div>
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
