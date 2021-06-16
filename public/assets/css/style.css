@@ -777,7 +777,8 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #34b7a7;
+  /* background: #34b7a7; */
+  background: rgb(111,111,111);
 }
 
 .portfolio #portfolio-flters li:last-child {
