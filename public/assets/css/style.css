@@ -460,7 +460,8 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  /* background: #34b7a7; */
+  background: rgb(111,111,111);
 }
 
 #hero .btn-about:hover {
@@ -1036,7 +1037,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #34b7a7;
+  /* background: #34b7a7; */
+  background: rgb(111,111,111);
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1077,18 +1079,33 @@ section {
   text-align: center;
 }
 
-#footer .credits {
-  padding-top: 5px;
-  font-size: 13px;
-}
-
-#footer .credits a {
-  color: #34b7a7;
-}
-
 .main-p-detail {
   margin-top: 6rem !important;
 }
+
+.footer-social-links {
+  padding-left: 20px;
+}
+
+.footer-social-links a {
+  color: #222222;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.footer-social-links a:hover {
+  color: #34b7a7;
+}
+
+@media (max-width: 992px) {
+  .footer-social-links {
+    padding: 0 48px 0 0;
+  }
+}
+
 
 @media (min-width: 992px) {
   .modal-lg,
